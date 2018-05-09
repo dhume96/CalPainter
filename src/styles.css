@@ -24,7 +24,8 @@
     border-radius: 0%!important;
 }
 
+tr:nth-child(1) td:not(.mat-calendar-body-disabled):last-child div.mat-calendar-body-cell-content,
 tr td:not(.mat-calendar-body-disabled):first-child div.mat-calendar-body-cell-content,
-tr td:not(.mat-calendar-body-disabled):last-child div.mat-calendar-body-cell-content {
+tr td:nth-child(7):not(.mat-calendar-body-disabled) div.mat-calendar-body-cell-content {
     background-color: yellow!important;
 }
