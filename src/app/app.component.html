@@ -1,5 +1,9 @@
 <label>Starting Date:</label><input #dateInput type="date">
 <br>
-<label>Nuber of days:</label><input #numberDaysInput type="number">
+<label>Number of Days:</label><input #numberDaysInput type="number" value="0">
+<br>
+<label>Country Code:</label><input #localeInput type="text">
 <br>
 <button #paintButton (click)="paintIt()">Paint!</button>
+
+<div class="mainContainer"><ng-template #container></ng-template></div>

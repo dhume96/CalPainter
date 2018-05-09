@@ -17,6 +17,7 @@
 
 .mat-calendar {
     width: 300px!important;
+    display: inline-block!important;
 }
 
 .mat-calendar-body-cell-content {
