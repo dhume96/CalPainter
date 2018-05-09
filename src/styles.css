@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+.mat-calendar-body-disabled {
+    background-color: white!important;
+}
+
+.mat-calendar-body-disabled div {
+    color: gray!important;
+    background-color: gray!important;
+    border-radius: 0%;
+}
+
+.mat-calendar-header {
+    display: none!important;
+}
+
+.mat-calendar {
+    width: 300px!important;
+}
+
+.mat-calendar-body-cell-content {
+    background-color: green!important;
+    border-radius: 0%!important;
+}
+
+tr td:not(.mat-calendar-body-disabled):first-child div.mat-calendar-body-cell-content,
+tr td:not(.mat-calendar-body-disabled):last-child div.mat-calendar-body-cell-content {
+    background-color: yellow!important;
+}
